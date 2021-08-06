@@ -2,15 +2,23 @@
 
 int main(void)
 {
-	int left;
-	int right;
-	left = 10;
-	right = 3;
+	int water;
+	water = 198;
 
-	printf("%d\n",left + right);
-	printf("%d\n",left - right);
-	printf("%d\n",left * right);
-	printf("%d\n",left / right);
-	printf("%d\n",left % right);
+	int milk;
+	//“ñ–{”ƒ‚¤
+	milk = 138;
+
+	int money;
+	money = 1000;
+
+	double tax;
+	tax = 1.05;
+
+	int total = (int) ((water + milk * 2) * tax);
+	int change = money - total;
+
+	printf("%d\n", change);
+
 	return 0;
 }
