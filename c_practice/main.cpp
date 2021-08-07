@@ -2,6 +2,16 @@
 
 int main(void)
 {
+	double data;
+
+	scanf_s("%lf", &data);
+	printf("%f\n", data);
+
+
+	return 0;
+
+
+	/*
 	int water;
 	water = 198;
 
@@ -19,6 +29,6 @@ int main(void)
 	int change = money - total;
 
 	printf("%d\n", change);
+	*/
 
-	return 0;
 }
