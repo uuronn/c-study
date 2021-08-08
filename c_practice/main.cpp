@@ -2,11 +2,17 @@
 
 int main(void)
 {
-	double data;
+	int min,max,sum;
 
-	scanf_s("%lf", &data);
-	printf("%f\n", data);
+	// 入力部分
+	printf("最小値と最大値を,で区切ってください。:");
+	scanf_s("%d,%d", &min,&max);
 
+	// 計算部分
+	sum = (min + max) * (max-min+1) / 2;
+
+	// 表示部分
+	printf("%d～%dの合計値は%dです。\n", min, max, sum);
 
 	return 0;
 
