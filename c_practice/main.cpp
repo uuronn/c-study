@@ -1,8 +1,42 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main(void)
 {
-	int min,max,sum;
+	int price;
+
+	double oneDiscount,threeDiscount,fiveDiscount,eightDiscount;
+
+	oneDiscount = 0.9;
+	threeDiscount = 0.7;
+	fiveDiscount = 0.5;
+	eightDiscount = 0.2;
+
+	printf("定価を入力してください:");
+	scanf("%d", &price);
+
+	printf("一割引きの値:%d\n", (int)(price * oneDiscount));
+	printf("三割引きの値:%d\n", (int)(price * threeDiscount));
+	printf("五割引きの値:%d\n", (int)(price * fiveDiscount));
+	printf("八割引きの値:%d\n", (int)(price * eightDiscount));
+
+
+	return 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*
+	int min, max, sum;
 
 	// 入力部分
 	printf("最小値と最大値を,で区切ってください。:");
@@ -15,6 +49,19 @@ int main(void)
 	printf("%d～%dの合計値は%dです。\n", min, max, sum);
 
 	return 0;
+
+	*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 	/*
