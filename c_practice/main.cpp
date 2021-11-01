@@ -3,6 +3,25 @@
 
 int main(void)
 {
+	int suuti;
+	scanf_s("%d", &suuti);
+	if (suuti = 10) printf("“ü—Í’l‚Í10‚Å‚·\n");
+	return 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*
 	int price;
 
 	double oneDiscount,threeDiscount,fiveDiscount,eightDiscount;
@@ -22,7 +41,7 @@ int main(void)
 
 
 	return 0;
-
+	*/
 
 
 
