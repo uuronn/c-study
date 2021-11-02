@@ -5,7 +5,9 @@ int main(void)
 {
 	int suuti;
 	scanf_s("%d", &suuti);
-	if (suuti = 10) printf("入力値は10です\n");
+	if (suuti == 10) printf("入力値は10です\n");
+	if (suuti > 10) printf("入力値は10より大きいです\n");
+	if (suuti < 10) printf("入力値は10より小さいです\n");
 	return 0;
 
 
